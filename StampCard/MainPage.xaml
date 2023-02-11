@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StampCard.MainPage"
+             xmlns:cf="clr-namespace:StampCard"
+             xmlns:viewModel="clr-namespace:StampCard.ViewModels"
+             x:DataType="viewModel:MainViewModel"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI"
+             >
+    <ContentPage.BindingContext>
+        <viewModel:MainViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid BackgroundColor="#f2f2f2" >
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!--<zxing:CameraBarcodeReaderView     
+                        Grid.Row="0"
+			            x:Name="barcodeView" BarcodesDetected="barcodeView_BarcodesDetected"/>
+        <Entry x:Name="code" Grid.Row="1" Text="{Binding barcode}" ></Entry>-->
+
+
+        
+            <Image Grid.Row="0" Source="header.svg" />
+        
+
+        <cf:CoffeeView Grid.Row="1" Text="{Binding NumberOfCoffee}"></cf:CoffeeView>
+
+        <!--<Label Grid.Row="1" Text="{Binding NumberOfCoffee}" >  </Label>-->
+
+        <Button
+            BackgroundColor="{Binding ButtonColor}"
+            Margin="0,0,0,50"
+            Grid.Row="2"    
+            x:Name="CounterBtn"
+                Text="{Binding ButtonText}"
+            FontSize="Large"
+                Command="{Binding AddCoffee}"
+                HorizontalOptions="Center" />
+
+
+
+    </Grid>
+
+</ContentPage>

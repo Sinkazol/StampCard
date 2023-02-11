@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Réteg_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="720px" height="156.205px" viewBox="0 0 720 156.205" enable-background="new 0 0 720 156.205" xml:space="preserve">
+<defs>
+	<rect id="SVGID_1_" x="0.795" y="-14.571" width="720" height="170.991"/>
+</defs>
+<clipPath id="SVGID_2_">
+	<use xlink:href="#SVGID_1_"  overflow="visible"/>
+</clipPath>
+<rect y="0" clip-path="url(#SVGID_2_)" fill="#F2F2F2" width="720.795" height="156.42"/>
+<g clip-path="url(#SVGID_2_)">
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="673.5693" y1="-178.8714" x2="14.8473" y2="-340.1911">
+		<stop  offset="0" style="stop-color:#333333"/>
+		<stop  offset="0.0319" style="stop-color:#2B2B2B"/>
+		<stop  offset="0.1288" style="stop-color:#181818"/>
+		<stop  offset="0.2418" style="stop-color:#0A0A0A"/>
+		<stop  offset="0.3842" style="stop-color:#020202"/>
+		<stop  offset="0.651" style="stop-color:#000000"/>
+		<stop  offset="0.7444" style="stop-color:#050505"/>
+		<stop  offset="0.8484" style="stop-color:#121212"/>
+		<stop  offset="0.9572" style="stop-color:#282828"/>
+		<stop  offset="1" style="stop-color:#333333"/>
+	</linearGradient>
+	<path fill="url(#SVGID_3_)" stroke="#FFFFFF" stroke-miterlimit="10" d="M0.795-411.674v312.409h0.691
+		c3.895-23.215,24.073-40.909,48.396-40.909h621.827c24.322,0,44.5,17.694,48.396,40.909h0.691v-312.409H0.795z"/>
+	<path fill="#FFFFFF" stroke="#B3B3B3" stroke-miterlimit="10" d="M598.523,64.494c0-6.594-5.82-11.94-13-11.94H134.25
+		c-7.18,0-13,5.346-13,11.94l68,598.173c0,1.541,0.329,3.01,0.908,4.362c1.881,21.275,77.044,38.388,169.501,38.388
+		c90.505,0,164.441-16.398,169.287-37.046c1.005-1.695,1.577-3.638,1.577-5.704L598.523,64.494z"/>
+	<path fill="#FFFFFF" stroke="#B3B3B3" stroke-miterlimit="10" d="M606.477,68.794c0,6.594-5.82,11.94-13,11.94H129.705
+		c-7.18,0-13-5.346-13-11.94v-4.3c0-6.594,5.82-11.94,13-11.94h463.773c7.18,0,13,5.346,13,11.94V68.794z"/>
+	<text transform="matrix(1.902 0 0 1 305.3883 78.4663)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="25.138">FREE</text>
+	<text transform="matrix(1 0 0 1 345.7164 135.6131)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="27.8121">9</tspan><tspan x="0" y="66.749" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="27.8121">8</tspan><tspan x="0" y="133.499" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="27.8121">7</tspan><tspan x="0" y="200.248" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="27.8121">6</tspan><tspan x="0" y="266.997" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="27.8121">5</tspan><tspan x="0" y="333.746" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="27.8121">4</tspan><tspan x="0" y="400.495" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="27.8121">3</tspan><tspan x="0" y="467.244" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="27.8121">2</tspan><tspan x="0" y="533.994" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="27.8121">1</tspan></text>
+</g>
+</svg>
