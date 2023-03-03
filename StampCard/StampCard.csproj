@@ -34,7 +34,7 @@
 
 
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\blackstart.svg" ForegroundFile="Resources\AppIcon\blackstart.svg" Color="#000000" />
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg"    />
 
 		<!--Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\blackstart.svg" Color="#000000" BaseSize="128,128" />
@@ -57,16 +57,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Remove="Resources\AppIcon\logo_feher.png" />
+		<None Remove="Resources\AppIcon\appiconfg.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<MauiImage Include="Resources\AppIcon\logo_feher.png" />
+		<MauiImage Include="Resources\AppIcon\appicon.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="2.0.0" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+		<PackageReference Include="LiteDB" Version="5.0.15" />
 		<PackageReference Include="ZXing.Net.Maui" Version="0.1.0-preview.6" />
 	</ItemGroup>
 

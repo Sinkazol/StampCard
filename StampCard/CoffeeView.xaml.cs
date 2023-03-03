@@ -45,7 +45,7 @@ public partial class CoffeeView : ContentView
     public CoffeeView()
 	{
 		InitializeComponent();
-        this.BindingContext= this;
+        //this.BindingContext= this;
 	}
 
     public void FillTheCup(int number)

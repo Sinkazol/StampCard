@@ -4,7 +4,6 @@
              x:Class="StampCard.MainPage"
              xmlns:cf="clr-namespace:StampCard"
              xmlns:viewModel="clr-namespace:StampCard.ViewModels"
-             x:DataType="viewModel:MainViewModel"
              xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI"
              >
     <ContentPage.BindingContext>
@@ -19,32 +18,45 @@
             <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <!--<zxing:CameraBarcodeReaderView     
-                        Grid.Row="0"
-			            x:Name="barcodeView" BarcodesDetected="barcodeView_BarcodesDetected"/>
-        <Entry x:Name="code" Grid.Row="1" Text="{Binding barcode}" ></Entry>-->
+       
+        <Image Grid.Row="0" Source="header.svg" Margin="-1" />
+        <VerticalStackLayout Grid.Row="1" 
+            IsVisible="{Binding CamShow}">
+            <zxing:CameraBarcodeReaderView   
+                IsEnabled="{Binding CamShow}"               
+			    x:Name="barcodeView" BarcodesDetected="barcodeView_BarcodesDetected"/>
+        </VerticalStackLayout>
 
+        <VerticalStackLayout 
+            IsVisible="{Binding CupShow}"
+            Grid.Row="1" 
+            HorizontalOptions="Center" 
+            Margin="0,40,0,0">
 
-        
-            <Image Grid.Row="0" Source="header.svg" />
-        
+            <!--secund version filling cup-->
+            <Image x:Name="cup" Source="c0"/>
 
-        <cf:CoffeeView Grid.Row="1" Text="{Binding NumberOfCoffee}"></cf:CoffeeView>
-
-        <!--<Label Grid.Row="1" Text="{Binding NumberOfCoffee}" >  </Label>-->
+            <!--first version filling cup-->
+            <!--<Image x:Name="a9" Source="emty9" />
+            <Image x:Name="a8" Source="emty8"/>
+            <Image x:Name="a7" Source="emty7"/>
+            <Image x:Name="a6" Source="emty6"/>
+            <Image x:Name="a5" Source="emty5"/>
+            <Image x:Name="a4" Source="emty4"/>
+            <Image x:Name="a3" Source="emty3"/>
+            <Image x:Name="a2" Source="emty2"/>
+            <Image x:Name="a1" Source="emty1" Margin="2,0,0,0"/>-->
+        </VerticalStackLayout>
 
         <Button
             BackgroundColor="{Binding ButtonColor}"
             Margin="0,0,0,50"
             Grid.Row="2"    
             x:Name="CounterBtn"
-                Text="{Binding ButtonText}"
+            Text="{Binding ButtonText}"
             FontSize="Large"
-                Command="{Binding AddCoffee}"
-                HorizontalOptions="Center" />
-
-
-
+            Command="{Binding AddCoffee}"
+            HorizontalOptions="Center" />
     </Grid>
 
 </ContentPage>
